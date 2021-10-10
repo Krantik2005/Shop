@@ -1,0 +1,11 @@
+.header__basket-quantity {
+  margin: 0;
+  width: 19px;
+  height: 19px;
+  background-color: #F16D7F;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}

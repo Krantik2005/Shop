@@ -1,0 +1,19 @@
+@import url(./__image/card__image.css);
+@import url(./__product-trend/card__product-trend.css);
+@import url(./__title/card__title.css);
+@import url(./__close/card__close.css);
+@import url(./__aside/card__aside.css);
+@import url(./__list/card__list.css);
+@import url(./__item/card__item.css);
+@import url(./__price/card__price.css);
+@import url(./__color/card__color.css);
+@import url(./__size/card__size.css);
+@import url(./__quantity/card__quantity.css);
+@import url(./__text/card__text.css);
+
+.card {
+  display: flex;
+  width: 580px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  margin: 0 128px 40px 0;
+}

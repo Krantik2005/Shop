@@ -1,0 +1,10 @@
+.header__burger {
+  background: no-repeat url(../../../images/header/burger.svg);
+  width: 32px;
+  height: 23px;
+  padding-right: 25px;
+}
+
+.header__burger:hover {
+  cursor: pointer;
+}

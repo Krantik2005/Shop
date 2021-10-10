@@ -1,0 +1,14 @@
+@import url(./__author/footer__author.css);
+@import url(./__social/footer__social.css);
+@import url(./__list/foter__list.css);
+@import url(./__item/footer__item.css);
+@import url(./__link/footer__link.css);
+@import url(./__icon/footer__icon.css);
+
+.footer {
+  height: 79px;
+  background-color: #222224;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

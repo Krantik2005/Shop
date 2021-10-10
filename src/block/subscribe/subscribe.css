@@ -1,0 +1,33 @@
+@import url(./__profile/subscribe__profile.css);
+@import url(./__avatar/subscribe__avatar.css);
+@import url(./__quote/subscribe__quote.css);
+@import url(./__section/subscribe__section.css);
+@import url(./__title/subscribe__title.css);
+@import url(./__text/subscribe__text.css);
+@import url(./__form/subscribe__form.css);
+@import url(./__email/subscribe__email.css);
+@import url(./__btn/subscribe__btn.css);
+
+.subscribe {
+  background: no-repeat url(../../images/content/Layer\ 41.svg);
+  background-size: cover;
+  height: 448px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: -10;
+}
+
+.subscribe::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F4F4F4;
+  opacity: 0.3;
+  z-index: -1;
+}

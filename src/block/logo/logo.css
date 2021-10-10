@@ -1,0 +1,5 @@
+@import url(./header__logo/header__logo.css);
+
+.logo {
+  background: no-repeat url(../../images/header/logo.svg);
+}

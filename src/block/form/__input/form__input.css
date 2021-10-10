@@ -1,0 +1,10 @@
+.form__input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #A4A4A4;
+  margin-bottom: 20px;
+}
+
+.form__input:last-child {
+  margin-bottom: 24px;
+}

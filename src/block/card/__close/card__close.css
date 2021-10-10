@@ -1,0 +1,14 @@
+.card__close {
+  background: no-repeat url(../../../images/content/Close.svg);
+  background-size: cover;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  position: absolute;
+  top: 28px;
+  right: 0;
+}
+
+.card__close:hover {
+  cursor: pointer;
+}

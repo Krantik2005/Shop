@@ -1,0 +1,10 @@
+.header__user {
+  background: no-repeat url(../../../images/header/user.svg);
+  width: 29px;
+  height: 29px;
+  padding-right: 42px;
+}
+
+.header__user:hover {
+  cursor: pointer;
+}

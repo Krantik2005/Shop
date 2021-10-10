@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__menu-seаrch">
+      <div class="logo header__logo"></div>
+      <a href="#" class="header__search"></a>
+    </div>
+    <nav class="header__menu">
+      <ul class="header__list">
+        <li class="header__item"><div class="header__burger"></div></li>
+        <li class="header__item"><div class="header__user"></div></li>
+        <li class="header__item"><div class="header__basket"><p class="header__basket-quantity">5</p></div></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <section class="breadcrumb">
+      <h1 class="breadcrumb__title">Shopping cart</h1>
+    </section>
+    <section class="cards">
+      <div class="cards__section">
+        <div class="card">
+          <img src="./images/content/men1.svg" alt="Фотография одежды" class="card__image">
+          <div class="card__product-trend">
+            <h2 class="card__title">Mango people t-shirt</h2>
+            <button class="card__close"></button>
+            <div class="card__aside">
+              <ul class="card__list">
+                <li class="card__item"><p class="card__text">Price: <span class="card__price">$300</span></p></li>
+                <li class="card__item"><p class="card__text">Color: <span class="card__color">Red</span></p></li>
+                <li class="card__item"><p class="card__text">Size: <span class="card__size">XI</span></p></li>
+                <li class="card__item"><p class="card__text">Quantity: <span class="card__quantity">2</span></p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <h2 class="form__title">Shipping adress</h2>
+          <input type="text" placeholder="Bangladesh" class="form__input">
+          <input type="text" placeholder="State" class="form__input">
+          <input type="text" placeholder="Postcode / Zip" class="form__input">
+          <button type="button" class="form__button" disabled>Get a quote</button>
+        </div>
+        <div class="card">
+          <img src="./images/content/men2.svg" alt="Фотография одежды" class="card__image">
+          <div class="card__product-trend">
+            <h2 class="card__title">Mango people t-shirt</h2>
+            <button class="card__close"></button>
+            <div class="card__aside">
+              <ul class="card__list">
+                <li class="card__item"><p class="card__text">Price: <span class="card__price">$300</span></p></li>
+                <li class="card__item"><p class="card__text">Color: <span class="card__color">Red</span></p></li>
+                <li class="card__item"><p class="card__text">Size: <span class="card__size">XI</span></p></li>
+                <li class="card__item"><p class="card__text">Quantity: <span class="card__quantity">2</span></p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="total">
+          <h2 class="total__title">Sub total<span class="total__sub-price">$900</span></h2>
+          <h3 class="total__text">Grand total<span class="total__grand-price">$900</span></h3>
+          <div class="total__line"></div>
+          <button class="total__btn">Proceed to checkout</button>
+        </div>
+        <div class="cards__shopping">
+          <button type="button" class="cards__button">Clear shopping cart</button>
+          <button type="button" class="cards__button">Continue shopping</button>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__profile">
+        <img src="./images/content/custo.jpg" alt="Аватарка" class="subscribe__avatar">
+        <p class="subscribe__quote">"Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum"</p>
+      </div>
+      <div class="subscribe__section">
+        <h2 class="subscribe__title">Subscribe</h2>
+        <h3 class="subscribe__text">For our neweletter and promotion</h3>
+        <div class="subscribe__form">
+          <input type="email" class="subscribe__email" placeholder="Enter Your Email">
+          <button type="button" class="subscribe__btn">Subscribe</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__author">&copy; Brand All Rights Reserved.</p>
+    <div class="footer__social">
+      <ul class="foter__list">
+        <li class="footer__item"><a href="#" class="footer__link"><img src="./images/footer/facebook.svg" alt="facebook" class="footer__icon"></a></li>
+        <li class="footer__item"><a href="#" class="footer__link"><img src="./images/footer/instagram.svg" alt="instagram" class="footer__icon"></a></li>
+        <li class="footer__item"><a href="#" class="footer__link"><img src="./images/footer/punto.svg" alt="punto" class="footer__icon"></a></li>
+        <li class="footer__item"><a href="#" class="footer__link"><img src="./images/footer/twitter.svg" alt="twitter" class="footer__icon"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

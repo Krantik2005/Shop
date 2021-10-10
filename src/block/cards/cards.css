@@ -1,0 +1,9 @@
+@import url(./__shopping/cards__shopping.css);
+@import url(./__button/cards__button.css);
+@import url(./__section/cards__section.css);
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

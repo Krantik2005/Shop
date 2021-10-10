@@ -1,0 +1,10 @@
+.header__basket {
+  background: no-repeat url(../../../images/header/basket.svg);
+  width: 32px;
+  height: 29px;
+  position: relative;
+}
+
+.header__basket:hover {
+  cursor: pointer;
+}
